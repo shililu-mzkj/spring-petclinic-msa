@@ -32,6 +32,9 @@
         <dockerfile.plugin.version>1.4.13</dockerfile.plugin.version>
         <docker.image.tag>${project.version}</docker.image.tag>
         <dockerfile.maven.settings.auth>true</dockerfile.maven.settings.auth>
+
+        <docker.registry.name.prefix>harbor.tech-mz.com/test</docker.registry.name.prefix>
+
     </properties>
 
     <build>
@@ -86,7 +89,9 @@
                         </execution>
                     </executions>
                     <configuration>
-                        <repository>${docker.image.prefix}/${project.artifactId}</repository>
+                        <repository>${docker.registry.name.prefix}/${project.artifactId}</repository>
+
+<!--                        <repository>${docker.image.prefix}/${project.artifactId}</repository>-->
                         <contextDirectory>${basedir}</contextDirectory>
                         <tag>${docker.image.tag}</tag>
                         <!-- 注意在本地.m2/settings.xml中设置dockerhub账号和密码 -->
