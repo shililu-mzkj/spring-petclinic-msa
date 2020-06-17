@@ -71,7 +71,7 @@
 
         <pluginManagement>
             <plugins>
-                <!-- Spotify Dockerfile Maven -->
+                <!-- Spotify Dockerfile Maven 插件-->
                 <plugin>
                     <groupId>com.spotify</groupId>
                     <artifactId>dockerfile-maven-plugin</artifactId>
