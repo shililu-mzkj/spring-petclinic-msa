@@ -31,7 +31,7 @@
         <docker.image.exposed.port>80</docker.image.exposed.port>
         <dockerfile.plugin.version>1.4.13</dockerfile.plugin.version>
         <docker.image.tag>${project.version}</docker.image.tag>
-        <dockerfile.maven.settings.auth>true</dockerfile.maven.settings.auth>
+        <dockerfile.maven.settings.auth>false</dockerfile.maven.settings.auth>
     </properties>
 
     <build>
