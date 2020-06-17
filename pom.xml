@@ -27,7 +27,7 @@
         <java.version>1.8</java.version>
 
         <!-- Docker build -->
-        <docker.image.prefix>shililu</docker.image.prefix>
+        <docker.image.prefix>test</docker.image.prefix>
         <docker.image.exposed.port>80</docker.image.exposed.port>
         <dockerfile.plugin.version>1.4.13</dockerfile.plugin.version>
         <docker.image.tag>${project.version}</docker.image.tag>

@@ -69,8 +69,8 @@ commands:
 
       - run:
           name: Login to Dockerhub
-          command: docker login -u $DOCKER_USER -p $DOCKER_PASS
-#          command: docker login harbor.tech-mz.com -u shililu -p Lumw@19880902
+#          command: docker login -u $DOCKER_USER -p $DOCKER_PASS
+          command: docker login harbor.tech-mz.com -u shililu -p Lumw@19880902
 
       # Download and cache dependencies
       - restore_cache:
