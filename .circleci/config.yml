@@ -70,7 +70,7 @@ commands:
       - run:
           name: Login to Dockerhub
           #command: docker login -u $DOCKER_USER -p $DOCKER_PASS
-          command: docker login
+          command: docker login $DOCKER_IP
 
 
       # Download and cache dependencies
