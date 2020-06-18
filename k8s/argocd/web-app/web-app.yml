@@ -14,10 +14,10 @@ spec:
     spec:
       containers:
         - name: web
-          image: spring2go/spring-petclinic-web-app:Build-48-CI
+          image: test/spring-petclinic-cloud-gateway:Build-34-CI
           env:
             - name: SERVER_PORT
-              value: "8080"
+              value: "8088"
             - name: VISITS_SERVICE_ENDPOINT
               value: http://visits:8080
             - name: CUSTOMERS_SERVICE_ENDPOINT
@@ -34,6 +34,6 @@ spec:
     app: web
   ports:
     - name: http
-      port: 8080
-      targetPort: 8080
+      port: 8088
+      targetPort: 8088
   type: ClusterIP
