@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: web
-          image: harbor.tech-mz.com/test/spring-petclinic-web-app:Build-46-CI
+          image: harbor.tech-mz.com/test/spring-petclinic-web-app:Build-47-CI
           env:
             - name: SERVER_PORT
               value: "8080"
