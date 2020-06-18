@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: web
-          image: test/spring-petclinic-cloud-gateway:Build-36-CI
+          image: harbor.tech-mz.com/test/spring-petclinic-cloud-gateway:Build-36-CI
           env:
             - name: SERVER_PORT
               value: "8089"
