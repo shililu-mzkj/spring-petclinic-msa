@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: web
-          image: spring2go/spring-petclinic-web-app:1.0.0.RELEASE
+          image: harbor.tech-mz.com/test/spring-petclinic-web-app:Build-40-CI
           env:
             - name: SERVER_PORT
               value: "8080"

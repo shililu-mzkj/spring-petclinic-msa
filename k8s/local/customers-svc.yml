@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: customers
-          image: spring2go/spring-petclinic-customers-service:1.0.0.RELEASE
+          image: harbor.tech-mz.com/test/spring-petclinic-customers-service:Build-37-CI
           resources:
             requests:
               memory: "128Mi"

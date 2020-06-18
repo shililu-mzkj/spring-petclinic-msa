@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: visits
-          image: spring2go/spring-petclinic-visits-service:1.0.0.RELEASE
+          image: harbor.tech-mz.com/test/spring-petclinic-visits-service:Build-39-CI
           readinessProbe:
             httpGet:
               path: /actuator/health
